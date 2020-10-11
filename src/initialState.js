@@ -1,8 +1,7 @@
 import name from 'random-name';
-import id from 'uuid/v4';
+import { v4 as id } from 'uuid';
 
 //dummy data
-
 const initialState = [
     {
         id: id(),
