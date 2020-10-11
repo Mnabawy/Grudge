@@ -26,7 +26,7 @@ const NewGrudge = ({ onSubmit }) => {
                 value={reason}
                 onChange={event => setReason(event.target.value)}
             />
-            <input className="NewGrudge-submit button" type="text" s />
+            <input className="NewGrudge-submit button" type="submit" />
         </form>
     )
 }

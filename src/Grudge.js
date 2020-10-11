@@ -10,7 +10,7 @@ const Grudge = ({ grudge, onForgive }) => {
             <p>{grudge.reason}</p>
             <div className="Grudge-controls">
                 <labe className="Grudge-forgiven">
-                    <input type="checkout" checked={grudge.forgiven} onChange={forgive} />{' '} Forgiven
+                    <input type="checkbox" checked={grudge.forgiven} onChange={forgive} />{' '} Forgiven
                 </labe>
             </div>
         </article> 
