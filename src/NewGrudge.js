@@ -7,8 +7,6 @@ const NewGrudge = React.memo(() => {
 
     const { addGrudge } = React.useContext(GrudgeContext);
 
-    console.log('Rendering New Grudge');
-
     const handleChange = event => {
         event.preventDefault();
         addGrudge({ person, reason })
